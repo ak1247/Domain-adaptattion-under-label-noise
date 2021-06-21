@@ -36,7 +36,7 @@ train_dance_co.py --> For 100% of source samples in each batch for source loss
 train_dance_coPer.py --> For some definite percentage of source samples in each batch for source loss
 ```
 ### Resutls:
-Consider "per class mean acc" for out evaluation criteria.
+Consider "per class mean acc" for our evaluation criteria.
 ```bash
 Office(amazon2dslr), 45PN , stanrard pre-trained model, imagenet_loss factor=0 (can edit this in line 201 in train_dance_co.py)
 [10000, [0.4166666666666667, 0.9047619047619048, 1.0, 0.0, 1.0, 0.7916666666666666, 0.7272727272727273, 0.6666666666666666, 0.375, 0.391304347826087, 0.8057142857142857], 'per class mean acc 0.643550296870455', 0.7289156626506024, 'closed acc 0.34036144578313254']
